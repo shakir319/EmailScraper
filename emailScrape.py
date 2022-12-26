@@ -7,7 +7,6 @@ import re
 def getAddress():
 	url = raw_input("Site to scrape: ")
 	http = "http://"
-	https = "https://"
 
 	if http in url:
 		return url
